@@ -1,0 +1,38 @@
+#mario-foreground {
+	background-image: url('../img/mario/mario_1.png');
+	display: inline-block;
+	top: 400px;
+	z-index: 10;
+}
+
+#mario-background-1 {
+	background-image: url('../img/mario/mario_2.png');
+	display: inline-block;
+	top: 300px;
+	z-index: 9;
+}
+
+#mario-background-2 {
+	background-image: url('../img/mario/mario_3.png');
+	display: inline-block;
+	top: 200px;
+	z-index: 8;
+}
+
+#mario-background-3 {
+	background-image: url('../img/mario/mario_4.png');
+	display: inline-block;
+	z-index: 7;
+}
+
+#mario-background-4 {
+	background-image: url('../img/mario/mario_5.png');
+	display: inline-block;
+	z-index: 6;
+}
+
+.background {
+	background-image: url('../img/mario/mario_16.png');
+	display: inline-block;
+	z-index: 6;
+}
