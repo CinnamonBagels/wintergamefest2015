@@ -1,38 +1,73 @@
+/* html always adds 8px */
+body, .parallax, .container, html, #zelda-section, #mario-section, #league-section, div {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+body, html {
+	height: 5000px;
+}
+
+#zelda-section {
+	position: relative;
+	top: 0px;	
+	height: 1125px;
+	width: ;
+}
+
+#league-section {
+	position: relative;
+	top: 1500px;
+	left: 0;
+	height: 1125px;
+	width: 100%;
+}
+
+#mario-section {
+	position: relative;
+	top: 3000px;
+	left: 0;
+	height: 1125px;
+	width: 100%;
+}
+
 #mario-foreground {
-	background-image: url('../img/mario/mario_1.png');
-	display: inline-block;
-	top: 400px;
 	z-index: 10;
 }
 
 #mario-background-1 {
-	background-image: url('../img/mario/mario_2.png');
-	display: inline-block;
-	top: 300px;
 	z-index: 9;
 }
 
 #mario-background-2 {
-	background-image: url('../img/mario/mario_3.png');
-	display: inline-block;
-	top: 200px;
 	z-index: 8;
 }
 
 #mario-background-3 {
-	background-image: url('../img/mario/mario_4.png');
-	display: inline-block;
 	z-index: 7;
 }
 
 #mario-background-4 {
-	background-image: url('../img/mario/mario_5.png');
-	display: inline-block;
 	z-index: 6;
 }
 
-.background {
-	background-image: url('../img/mario/mario_16.png');
-	display: inline-block;
-	z-index: 6;
+#background {
+	float: right;
+	z-index: 5;
+	position: fixed;
 }
+
+.parallax {
+	background-size: 100% auto;
+	top: 0;
+	right: 0;
+}
+
+/*body > div {
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+}*/
