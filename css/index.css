@@ -11,11 +11,22 @@ body, html {
 	height: 5000px;
 }
 
+
+/*Some stuff*/
+/*#league-foreground, #zelda-foreground, #mario-foreground {
+	visibility : hidden;
+}*/
+
+#stuff {
+	height: 5000px;
+	width: 1080px;
+}
 #zelda-section {
 	position: relative;
 	top: 0px;	
+	left: 0;
 	height: 1125px;
-	width: ;
+	width: 100%;
 }
 
 #league-section {
