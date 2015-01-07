@@ -21,8 +21,6 @@
 				//$('#zelda-foreground').scrollingParallax();
 				$.scrollingParallax('./img/2_mario/mario_2.png');
 				$.scrollingParallax('./img/2_mario/mario_3.png');
-				$.scrollingParallax('./img/2_mario/mario_4.png');
-				$.scrollingParallax('./img/background.png');
 				break;
 			case 'league' :
 				$('.container').prepend('<div id="league-foreground" class="parallax" data-id="league-foreground" data-start="2500" data-stop="3000" data-speed="0.5">\
